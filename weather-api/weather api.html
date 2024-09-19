@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Wheather API</title>
+    <link rel="stylesheet" href="weather api.css">
+</head>
+<body>
+    
+    <div class="main">
+        <div class="search">
+            <input type = "text" placeholder = "Enter City Name" spellcheck="false">
+            <button><i class="fa fa-search"></i></button>
+        </div>
+        <div class="cloud">
+            <i id="cl" class="fa-solid fa-cloud-showers-heavy"></i>
+            <h1 class="temp">22°c</h1>
+            <h1 class="city">New York</h1>
+            <div class="col">
+                <i class="fa-solid fa-water"></i>
+                <div class="chan">
+                    <h3 id="hu">50%</h3>
+                    <p>Humidity</p>
+                </div>
+
+                <div class="wind">
+                    <i class="fa-solid fa-wind"></i>
+                    <div class="cha">
+                        <h3 id="wi">15 km/h</h3>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="weather api.js"></script>
+</body>
+</html>
